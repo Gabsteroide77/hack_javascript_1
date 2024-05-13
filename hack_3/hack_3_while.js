@@ -5,8 +5,15 @@
  * 
  *  output => [5,4,3,2,1]
  */
+let log = console.log;
 let result = [];
 
+var i = 5;
+while (i >= 1){
+    result.push(i);
+    i--;
+}
+log(result);
 
 //export result
 module.exports = result;
