@@ -5,7 +5,10 @@
  * 
  * output => [1,3,5,7]
  */
-let result = [];
+let log = console.log;
+let result = [1, 3, 5, 7];
+let nuevoArray = result.map((x) => x)
+log(nuevoArray);
 
 
 //export result

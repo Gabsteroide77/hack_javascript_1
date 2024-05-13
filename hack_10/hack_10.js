@@ -12,9 +12,16 @@
  * 
     output => ["bar","qux","octo","foobar"]   
  */
+let log = console.log;
 let arr = ["foo","bar","baz","qux","echo","octo","cat","foobar","quux"];
 let result = [];
 
+for (arrayIndice = 1; arrayIndice < arr.length; arrayIndice++){
+   if(arrayIndice % 2 == 1){
+      result.push(arr[arrayIndice]);
+   } 
+}
+log(result);
 
 //export result
 module.exports = result;
