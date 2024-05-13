@@ -5,8 +5,14 @@
  * 
  * output => [0,1,2,3,4,5]
  */
+let log = console.log;
 let result = [];
 
+
+for (i = 0; i <= 5; i++){
+    result.push(i);
+}
+log(result);
 
 //export result
 module.exports = result;
