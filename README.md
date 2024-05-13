@@ -1,3 +1,5 @@
+# TESTS PASSED ✅
+![TEST PASSED](https://github.com/Gabsteroide77/hack_javascript_1/blob/main/Test-Passed.png)
 # SOCIAL OPLESK
 ### 🏴‍☠️ HACKS 
 
